@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+My first App in [Nest](https://github.com/nestjs/nest) framework.
 
 ## Installation
 
@@ -44,18 +44,10 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
-## Test
-
+## Load data
+In order to load the static data you must access the endpoint:
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+localhost:3000/seed
 ```
 
 ## Support
